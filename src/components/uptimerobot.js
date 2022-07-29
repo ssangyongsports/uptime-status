@@ -8,8 +8,8 @@ function UptimeRobot({ apikey }) {
 
   const status = {
     ok: '正常',
-    down: '无法访问',
-    unknow: '未知'
+    down: '無法訪問',
+    unknow: '未知問題'
   };
 
   const { CountDays, ShowLink } = window.Config;
@@ -37,11 +37,11 @@ function UptimeRobot({ apikey }) {
           }
           else if (data.uptime <= 0 && data.down.times === 0) {
             status = 'none';
-            text += '无数据';
+            text += '無數據';
           }
           else {
             status = 'down';
-            text += `故障 ${data.down.times} 次，累计 ${formatDuration(data.down.duration)}，可用率 ${formatNumber(data.uptime)}%`;
+            text += `故障 ${data.down.times} 次，累積 ${formatDuration(data.down.duration)}，可用率 ${formatNumber(data.uptime)}%`;
           }
           return (<i key={index} className={status} data-tip={text} />)
         })}
@@ -50,7 +50,7 @@ function UptimeRobot({ apikey }) {
         <span>今天</span>
         <span>
           {site.total.times
-            ? `最近 ${CountDays} 天故障 ${site.total.times} 次，累计 ${formatDuration(site.total.duration)}，平均可用率 ${site.average}%`
+            ? `最近 ${CountDays} 天故障 ${site.total.times} 次，累積 ${formatDuration(site.total.duration)}，平均可用率 ${site.average}%`
             : `最近 ${CountDays} 天可用率 ${site.average}%`}
         </span>
         <span>{site.daily[site.daily.length - 1].date.format('YYYY-MM-DD')}</span>

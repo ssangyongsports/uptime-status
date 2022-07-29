@@ -9,8 +9,7 @@ window.Config = {
     'm792360511-27445bcb955d8f305ce07484',
     'm792360516-d49bdae264ecfa5c0ed18fce',
     'm792360523-5df83b0aeddb373dbad567e8',
-    'm792360525-b546eed56cf469069ff1ac4c'
-    'm792360527-67aa7346b7da96a88f0bb54d',
+    'm792360525-b546eed56cf469069ff1ac4c',
   ],
 
   // 日志天数

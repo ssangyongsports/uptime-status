@@ -22,6 +22,7 @@ function App() {
             <UptimeRobot key={key} apikey={key} />
           ))}
         </div>
+        <div id='footer'>          
         </div>
       </div>
     </>

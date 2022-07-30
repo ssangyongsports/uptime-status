@@ -22,10 +22,6 @@ function App() {
             <UptimeRobot key={key} apikey={key} />
           ))}
         </div>
-<a class="twitter-timeline" href="https://twitter.com/ssangyongsport?ref_src=twsrc%5Etfw">Tweets by ssangyongsport</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        <div id='footer'>
-          <p>監控 <Link to='' text='雙龍龍' /> 檢測平率 5 分鐘</p>
-          <p>&copy; 2022 <Link to='' text='雙龍體育' />, Version {Package.version}</p>
         </div>
       </div>
     </>

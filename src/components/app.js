@@ -22,6 +22,9 @@ function App() {
             <UptimeRobot key={key} apikey={key} />
           ))}
         </div>
+<div className='container'>
+        <div id='uptime'>
+      <h2 style="text-align: center;">&nbsp;在twitter上查看之前的停機</h2>
         <div id='footer'>
           
         </div>

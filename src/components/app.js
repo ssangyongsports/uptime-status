@@ -24,7 +24,7 @@ function App() {
         </div>
         <div id='footer'>
           <p>監控 <Link to='/' text='雙龍體育' /> 檢測頻率 5 分鐘</p>
-          <p>&copy; 2020 <Link to='https://status.org.cn/' text='STATUS.ORG.CN' />, Version {Package.version}</p>
+          <p>&copy; 2022 <Link to='https://www.ssangyongsports.eu.org/' text='雙龍體育' />, Version {Package.version}</p>
         </div>
       </div>
     </>
